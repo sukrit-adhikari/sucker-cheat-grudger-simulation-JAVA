@@ -1,0 +1,1624 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JTextField" name="jTextField1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jTextField1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="formKeyReleased"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jProgressBar_SimulationStatus" alignment="1" max="32767" attributes="0"/>
+                  <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jPanel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                              <Component id="btn_startSimulation" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Component id="lbl_notifyWhySimulationHasEnded" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lbl_parametersExceptionMessage" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel4" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lbl_Headline" min="-2" pref="823" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jRadioButton1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioButton2" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jProgressBar_SuckersPercentage" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jProgressBar_CheatsPercentage" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jProgressBar_GrudgersPercentage" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jScrollPane2" min="-2" pref="580" max="-2" attributes="0"/>
+                                          <Component id="check_enableLiveLogging" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="210" max="-2" attributes="0"/>
+                                      <Component id="btn_StopSimulationButton" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="304" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lbl_Headline" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btn_startSimulation" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_parametersExceptionMessage" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_notifyWhySimulationHasEnded" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="jPanel4" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jProgressBar_SimulationStatus" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="219" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="btn_StopSimulationButton" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="check_enableLiveLogging" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jScrollPane2" min="-2" pref="110" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jProgressBar_SuckersPercentage" min="-2" max="-2" attributes="0"/>
+                          <Component id="jProgressBar_CheatsPercentage" min="-2" max="-2" attributes="0"/>
+                          <Component id="jProgressBar_GrudgersPercentage" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Component id="jRadioButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRadioButton2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="34" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lbl_Headline">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sucker Cheat Grudger Simulation :: The Selfish Gene - Richard Dawkins :: Programming - Sukrit Adhikari, sukrit09@gmail.com"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lbl_PopulationParametersHeadline" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="lbl_GrudgersPopulation" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="txt_GrudgersPopulation" pref="70" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="lbl_SuckersPopulation" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lbl_CheatsPopulation" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="txt_SuckersPopulation" pref="71" max="32767" attributes="0"/>
+                                          <Component id="txt_CheatsPopulation" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="txt_totalIterations" min="-2" pref="40" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="lbl_PopulationParametersHeadline" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbl_SuckersPopulation" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txt_SuckersPopulation" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txt_CheatsPopulation" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl_CheatsPopulation" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbl_GrudgersPopulation" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txt_GrudgersPopulation" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel18" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txt_totalIterations" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jPanel2" alignment="1" max="32767" attributes="0"/>
+                      <Component id="jPanel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="0" pref="11" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lbl_PopulationParametersHeadline">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Population Parameters for Simulation"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbl_SuckersPopulation">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Suckers ::"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_SuckersPopulation">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="100"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbl_CheatsPopulation">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cheats ::"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_CheatsPopulation">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="100"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbl_GrudgersPopulation">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Grudgers ::"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_GrudgersPopulation">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="100"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="cmb_S_SC" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="txt_MaximumReproduction" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="txt_StartHealth" min="-2" pref="35" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="cmb_C_CG" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="cmb_G_SG" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="39" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cmb_S_SC" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cmb_C_CG" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cmb_G_SG" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txt_MaximumReproduction" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel14" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_StartHealth" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel6">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Dominant Gene Probability Parameters for Simulation"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel7">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="S/SC ::"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cmb_S_SC">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="101">
+                    <StringItem index="0" value="0%"/>
+                    <StringItem index="1" value="1%"/>
+                    <StringItem index="2" value="2%"/>
+                    <StringItem index="3" value="3%"/>
+                    <StringItem index="4" value="4%"/>
+                    <StringItem index="5" value="5%"/>
+                    <StringItem index="6" value="6%"/>
+                    <StringItem index="7" value="7%"/>
+                    <StringItem index="8" value="8%"/>
+                    <StringItem index="9" value="9%"/>
+                    <StringItem index="10" value="10%"/>
+                    <StringItem index="11" value="11%"/>
+                    <StringItem index="12" value="12%"/>
+                    <StringItem index="13" value="13%"/>
+                    <StringItem index="14" value="14%"/>
+                    <StringItem index="15" value="15%"/>
+                    <StringItem index="16" value="16%"/>
+                    <StringItem index="17" value="17%"/>
+                    <StringItem index="18" value="18%"/>
+                    <StringItem index="19" value="19%"/>
+                    <StringItem index="20" value="20%"/>
+                    <StringItem index="21" value="21%"/>
+                    <StringItem index="22" value="22%"/>
+                    <StringItem index="23" value="23%"/>
+                    <StringItem index="24" value="24%"/>
+                    <StringItem index="25" value="25%"/>
+                    <StringItem index="26" value="26%"/>
+                    <StringItem index="27" value="27%"/>
+                    <StringItem index="28" value="28%"/>
+                    <StringItem index="29" value="29%"/>
+                    <StringItem index="30" value="30%"/>
+                    <StringItem index="31" value="31%"/>
+                    <StringItem index="32" value="32%"/>
+                    <StringItem index="33" value="33%"/>
+                    <StringItem index="34" value="34%"/>
+                    <StringItem index="35" value="35%"/>
+                    <StringItem index="36" value="36%"/>
+                    <StringItem index="37" value="37%"/>
+                    <StringItem index="38" value="38%"/>
+                    <StringItem index="39" value="39%"/>
+                    <StringItem index="40" value="40%"/>
+                    <StringItem index="41" value="41%"/>
+                    <StringItem index="42" value="42%"/>
+                    <StringItem index="43" value="43%"/>
+                    <StringItem index="44" value="44%"/>
+                    <StringItem index="45" value="45%"/>
+                    <StringItem index="46" value="46%"/>
+                    <StringItem index="47" value="47%"/>
+                    <StringItem index="48" value="48%"/>
+                    <StringItem index="49" value="49%"/>
+                    <StringItem index="50" value="50%"/>
+                    <StringItem index="51" value="51%"/>
+                    <StringItem index="52" value="52%"/>
+                    <StringItem index="53" value="53%"/>
+                    <StringItem index="54" value="54%"/>
+                    <StringItem index="55" value="55%"/>
+                    <StringItem index="56" value="56%"/>
+                    <StringItem index="57" value="57%"/>
+                    <StringItem index="58" value="58%"/>
+                    <StringItem index="59" value="59%"/>
+                    <StringItem index="60" value="60%"/>
+                    <StringItem index="61" value="61%"/>
+                    <StringItem index="62" value="62%"/>
+                    <StringItem index="63" value="63%"/>
+                    <StringItem index="64" value="64%"/>
+                    <StringItem index="65" value="65%"/>
+                    <StringItem index="66" value="66%"/>
+                    <StringItem index="67" value="67%"/>
+                    <StringItem index="68" value="68%"/>
+                    <StringItem index="69" value="69%"/>
+                    <StringItem index="70" value="70%"/>
+                    <StringItem index="71" value="71%"/>
+                    <StringItem index="72" value="72%"/>
+                    <StringItem index="73" value="73%"/>
+                    <StringItem index="74" value="74%"/>
+                    <StringItem index="75" value="75%"/>
+                    <StringItem index="76" value="76%"/>
+                    <StringItem index="77" value="77%"/>
+                    <StringItem index="78" value="78%"/>
+                    <StringItem index="79" value="79%"/>
+                    <StringItem index="80" value="80%"/>
+                    <StringItem index="81" value="81%"/>
+                    <StringItem index="82" value="82%"/>
+                    <StringItem index="83" value="83%"/>
+                    <StringItem index="84" value="84%"/>
+                    <StringItem index="85" value="85%"/>
+                    <StringItem index="86" value="86%"/>
+                    <StringItem index="87" value="87%"/>
+                    <StringItem index="88" value="88%"/>
+                    <StringItem index="89" value="89%"/>
+                    <StringItem index="90" value="90%"/>
+                    <StringItem index="91" value="91%"/>
+                    <StringItem index="92" value="92%"/>
+                    <StringItem index="93" value="93%"/>
+                    <StringItem index="94" value="94%"/>
+                    <StringItem index="95" value="95%"/>
+                    <StringItem index="96" value="96%"/>
+                    <StringItem index="97" value="97%"/>
+                    <StringItem index="98" value="98%"/>
+                    <StringItem index="99" value="99%"/>
+                    <StringItem index="100" value="100%"/>
+                  </StringArray>
+                </Property>
+                <Property name="selectedIndex" type="int" value="50"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel9">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="G/SG ::"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cmb_G_SG">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="101">
+                    <StringItem index="0" value="0%"/>
+                    <StringItem index="1" value="1%"/>
+                    <StringItem index="2" value="2%"/>
+                    <StringItem index="3" value="3%"/>
+                    <StringItem index="4" value="4%"/>
+                    <StringItem index="5" value="5%"/>
+                    <StringItem index="6" value="6%"/>
+                    <StringItem index="7" value="7%"/>
+                    <StringItem index="8" value="8%"/>
+                    <StringItem index="9" value="9%"/>
+                    <StringItem index="10" value="10%"/>
+                    <StringItem index="11" value="11%"/>
+                    <StringItem index="12" value="12%"/>
+                    <StringItem index="13" value="13%"/>
+                    <StringItem index="14" value="14%"/>
+                    <StringItem index="15" value="15%"/>
+                    <StringItem index="16" value="16%"/>
+                    <StringItem index="17" value="17%"/>
+                    <StringItem index="18" value="18%"/>
+                    <StringItem index="19" value="19%"/>
+                    <StringItem index="20" value="20%"/>
+                    <StringItem index="21" value="21%"/>
+                    <StringItem index="22" value="22%"/>
+                    <StringItem index="23" value="23%"/>
+                    <StringItem index="24" value="24%"/>
+                    <StringItem index="25" value="25%"/>
+                    <StringItem index="26" value="26%"/>
+                    <StringItem index="27" value="27%"/>
+                    <StringItem index="28" value="28%"/>
+                    <StringItem index="29" value="29%"/>
+                    <StringItem index="30" value="30%"/>
+                    <StringItem index="31" value="31%"/>
+                    <StringItem index="32" value="32%"/>
+                    <StringItem index="33" value="33%"/>
+                    <StringItem index="34" value="34%"/>
+                    <StringItem index="35" value="35%"/>
+                    <StringItem index="36" value="36%"/>
+                    <StringItem index="37" value="37%"/>
+                    <StringItem index="38" value="38%"/>
+                    <StringItem index="39" value="39%"/>
+                    <StringItem index="40" value="40%"/>
+                    <StringItem index="41" value="41%"/>
+                    <StringItem index="42" value="42%"/>
+                    <StringItem index="43" value="43%"/>
+                    <StringItem index="44" value="44%"/>
+                    <StringItem index="45" value="45%"/>
+                    <StringItem index="46" value="46%"/>
+                    <StringItem index="47" value="47%"/>
+                    <StringItem index="48" value="48%"/>
+                    <StringItem index="49" value="49%"/>
+                    <StringItem index="50" value="50%"/>
+                    <StringItem index="51" value="51%"/>
+                    <StringItem index="52" value="52%"/>
+                    <StringItem index="53" value="53%"/>
+                    <StringItem index="54" value="54%"/>
+                    <StringItem index="55" value="55%"/>
+                    <StringItem index="56" value="56%"/>
+                    <StringItem index="57" value="57%"/>
+                    <StringItem index="58" value="58%"/>
+                    <StringItem index="59" value="59%"/>
+                    <StringItem index="60" value="60%"/>
+                    <StringItem index="61" value="61%"/>
+                    <StringItem index="62" value="62%"/>
+                    <StringItem index="63" value="63%"/>
+                    <StringItem index="64" value="64%"/>
+                    <StringItem index="65" value="65%"/>
+                    <StringItem index="66" value="66%"/>
+                    <StringItem index="67" value="67%"/>
+                    <StringItem index="68" value="68%"/>
+                    <StringItem index="69" value="69%"/>
+                    <StringItem index="70" value="70%"/>
+                    <StringItem index="71" value="71%"/>
+                    <StringItem index="72" value="72%"/>
+                    <StringItem index="73" value="73%"/>
+                    <StringItem index="74" value="74%"/>
+                    <StringItem index="75" value="75%"/>
+                    <StringItem index="76" value="76%"/>
+                    <StringItem index="77" value="77%"/>
+                    <StringItem index="78" value="78%"/>
+                    <StringItem index="79" value="79%"/>
+                    <StringItem index="80" value="80%"/>
+                    <StringItem index="81" value="81%"/>
+                    <StringItem index="82" value="82%"/>
+                    <StringItem index="83" value="83%"/>
+                    <StringItem index="84" value="84%"/>
+                    <StringItem index="85" value="85%"/>
+                    <StringItem index="86" value="86%"/>
+                    <StringItem index="87" value="87%"/>
+                    <StringItem index="88" value="88%"/>
+                    <StringItem index="89" value="89%"/>
+                    <StringItem index="90" value="90%"/>
+                    <StringItem index="91" value="91%"/>
+                    <StringItem index="92" value="92%"/>
+                    <StringItem index="93" value="93%"/>
+                    <StringItem index="94" value="94%"/>
+                    <StringItem index="95" value="95%"/>
+                    <StringItem index="96" value="96%"/>
+                    <StringItem index="97" value="97%"/>
+                    <StringItem index="98" value="98%"/>
+                    <StringItem index="99" value="99%"/>
+                    <StringItem index="100" value="100%"/>
+                  </StringArray>
+                </Property>
+                <Property name="selectedIndex" type="int" value="50"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel11">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="C/CG ::"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cmb_C_CG">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="101">
+                    <StringItem index="0" value="0%"/>
+                    <StringItem index="1" value="1%"/>
+                    <StringItem index="2" value="2%"/>
+                    <StringItem index="3" value="3%"/>
+                    <StringItem index="4" value="4%"/>
+                    <StringItem index="5" value="5%"/>
+                    <StringItem index="6" value="6%"/>
+                    <StringItem index="7" value="7%"/>
+                    <StringItem index="8" value="8%"/>
+                    <StringItem index="9" value="9%"/>
+                    <StringItem index="10" value="10%"/>
+                    <StringItem index="11" value="11%"/>
+                    <StringItem index="12" value="12%"/>
+                    <StringItem index="13" value="13%"/>
+                    <StringItem index="14" value="14%"/>
+                    <StringItem index="15" value="15%"/>
+                    <StringItem index="16" value="16%"/>
+                    <StringItem index="17" value="17%"/>
+                    <StringItem index="18" value="18%"/>
+                    <StringItem index="19" value="19%"/>
+                    <StringItem index="20" value="20%"/>
+                    <StringItem index="21" value="21%"/>
+                    <StringItem index="22" value="22%"/>
+                    <StringItem index="23" value="23%"/>
+                    <StringItem index="24" value="24%"/>
+                    <StringItem index="25" value="25%"/>
+                    <StringItem index="26" value="26%"/>
+                    <StringItem index="27" value="27%"/>
+                    <StringItem index="28" value="28%"/>
+                    <StringItem index="29" value="29%"/>
+                    <StringItem index="30" value="30%"/>
+                    <StringItem index="31" value="31%"/>
+                    <StringItem index="32" value="32%"/>
+                    <StringItem index="33" value="33%"/>
+                    <StringItem index="34" value="34%"/>
+                    <StringItem index="35" value="35%"/>
+                    <StringItem index="36" value="36%"/>
+                    <StringItem index="37" value="37%"/>
+                    <StringItem index="38" value="38%"/>
+                    <StringItem index="39" value="39%"/>
+                    <StringItem index="40" value="40%"/>
+                    <StringItem index="41" value="41%"/>
+                    <StringItem index="42" value="42%"/>
+                    <StringItem index="43" value="43%"/>
+                    <StringItem index="44" value="44%"/>
+                    <StringItem index="45" value="45%"/>
+                    <StringItem index="46" value="46%"/>
+                    <StringItem index="47" value="47%"/>
+                    <StringItem index="48" value="48%"/>
+                    <StringItem index="49" value="49%"/>
+                    <StringItem index="50" value="50%"/>
+                    <StringItem index="51" value="51%"/>
+                    <StringItem index="52" value="52%"/>
+                    <StringItem index="53" value="53%"/>
+                    <StringItem index="54" value="54%"/>
+                    <StringItem index="55" value="55%"/>
+                    <StringItem index="56" value="56%"/>
+                    <StringItem index="57" value="57%"/>
+                    <StringItem index="58" value="58%"/>
+                    <StringItem index="59" value="59%"/>
+                    <StringItem index="60" value="60%"/>
+                    <StringItem index="61" value="61%"/>
+                    <StringItem index="62" value="62%"/>
+                    <StringItem index="63" value="63%"/>
+                    <StringItem index="64" value="64%"/>
+                    <StringItem index="65" value="65%"/>
+                    <StringItem index="66" value="66%"/>
+                    <StringItem index="67" value="67%"/>
+                    <StringItem index="68" value="68%"/>
+                    <StringItem index="69" value="69%"/>
+                    <StringItem index="70" value="70%"/>
+                    <StringItem index="71" value="71%"/>
+                    <StringItem index="72" value="72%"/>
+                    <StringItem index="73" value="73%"/>
+                    <StringItem index="74" value="74%"/>
+                    <StringItem index="75" value="75%"/>
+                    <StringItem index="76" value="76%"/>
+                    <StringItem index="77" value="77%"/>
+                    <StringItem index="78" value="78%"/>
+                    <StringItem index="79" value="79%"/>
+                    <StringItem index="80" value="80%"/>
+                    <StringItem index="81" value="81%"/>
+                    <StringItem index="82" value="82%"/>
+                    <StringItem index="83" value="83%"/>
+                    <StringItem index="84" value="84%"/>
+                    <StringItem index="85" value="85%"/>
+                    <StringItem index="86" value="86%"/>
+                    <StringItem index="87" value="87%"/>
+                    <StringItem index="88" value="88%"/>
+                    <StringItem index="89" value="89%"/>
+                    <StringItem index="90" value="90%"/>
+                    <StringItem index="91" value="91%"/>
+                    <StringItem index="92" value="92%"/>
+                    <StringItem index="93" value="93%"/>
+                    <StringItem index="94" value="94%"/>
+                    <StringItem index="95" value="95%"/>
+                    <StringItem index="96" value="96%"/>
+                    <StringItem index="97" value="97%"/>
+                    <StringItem index="98" value="98%"/>
+                    <StringItem index="99" value="99%"/>
+                    <StringItem index="100" value="100%"/>
+                  </StringArray>
+                </Property>
+                <Property name="selectedIndex" type="int" value="50"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel13">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Maximum Reproduction Capability of Female ::"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_MaximumReproduction">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="15"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel14">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Starting Health of all Individuals ::"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_StartHealth">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="100"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="cmb_MaleProbability" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="cmb_InfectionProbability" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="cmb_CopulationProbability" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="cmb_DeathFromNaturalCauseProbability" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cmb_DeathFromNaturalCauseProbability" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cmb_CopulationProbability" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cmb_InfectionProbability" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cmb_MaleProbability" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Probability Parameters for Simulation"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Death from Natural Cause ::"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cmb_DeathFromNaturalCauseProbability">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="101">
+                    <StringItem index="0" value="0%"/>
+                    <StringItem index="1" value="1%"/>
+                    <StringItem index="2" value="2%"/>
+                    <StringItem index="3" value="3%"/>
+                    <StringItem index="4" value="4%"/>
+                    <StringItem index="5" value="5%"/>
+                    <StringItem index="6" value="6%"/>
+                    <StringItem index="7" value="7%"/>
+                    <StringItem index="8" value="8%"/>
+                    <StringItem index="9" value="9%"/>
+                    <StringItem index="10" value="10%"/>
+                    <StringItem index="11" value="11%"/>
+                    <StringItem index="12" value="12%"/>
+                    <StringItem index="13" value="13%"/>
+                    <StringItem index="14" value="14%"/>
+                    <StringItem index="15" value="15%"/>
+                    <StringItem index="16" value="16%"/>
+                    <StringItem index="17" value="17%"/>
+                    <StringItem index="18" value="18%"/>
+                    <StringItem index="19" value="19%"/>
+                    <StringItem index="20" value="20%"/>
+                    <StringItem index="21" value="21%"/>
+                    <StringItem index="22" value="22%"/>
+                    <StringItem index="23" value="23%"/>
+                    <StringItem index="24" value="24%"/>
+                    <StringItem index="25" value="25%"/>
+                    <StringItem index="26" value="26%"/>
+                    <StringItem index="27" value="27%"/>
+                    <StringItem index="28" value="28%"/>
+                    <StringItem index="29" value="29%"/>
+                    <StringItem index="30" value="30%"/>
+                    <StringItem index="31" value="31%"/>
+                    <StringItem index="32" value="32%"/>
+                    <StringItem index="33" value="33%"/>
+                    <StringItem index="34" value="34%"/>
+                    <StringItem index="35" value="35%"/>
+                    <StringItem index="36" value="36%"/>
+                    <StringItem index="37" value="37%"/>
+                    <StringItem index="38" value="38%"/>
+                    <StringItem index="39" value="39%"/>
+                    <StringItem index="40" value="40%"/>
+                    <StringItem index="41" value="41%"/>
+                    <StringItem index="42" value="42%"/>
+                    <StringItem index="43" value="43%"/>
+                    <StringItem index="44" value="44%"/>
+                    <StringItem index="45" value="45%"/>
+                    <StringItem index="46" value="46%"/>
+                    <StringItem index="47" value="47%"/>
+                    <StringItem index="48" value="48%"/>
+                    <StringItem index="49" value="49%"/>
+                    <StringItem index="50" value="50%"/>
+                    <StringItem index="51" value="51%"/>
+                    <StringItem index="52" value="52%"/>
+                    <StringItem index="53" value="53%"/>
+                    <StringItem index="54" value="54%"/>
+                    <StringItem index="55" value="55%"/>
+                    <StringItem index="56" value="56%"/>
+                    <StringItem index="57" value="57%"/>
+                    <StringItem index="58" value="58%"/>
+                    <StringItem index="59" value="59%"/>
+                    <StringItem index="60" value="60%"/>
+                    <StringItem index="61" value="61%"/>
+                    <StringItem index="62" value="62%"/>
+                    <StringItem index="63" value="63%"/>
+                    <StringItem index="64" value="64%"/>
+                    <StringItem index="65" value="65%"/>
+                    <StringItem index="66" value="66%"/>
+                    <StringItem index="67" value="67%"/>
+                    <StringItem index="68" value="68%"/>
+                    <StringItem index="69" value="69%"/>
+                    <StringItem index="70" value="70%"/>
+                    <StringItem index="71" value="71%"/>
+                    <StringItem index="72" value="72%"/>
+                    <StringItem index="73" value="73%"/>
+                    <StringItem index="74" value="74%"/>
+                    <StringItem index="75" value="75%"/>
+                    <StringItem index="76" value="76%"/>
+                    <StringItem index="77" value="77%"/>
+                    <StringItem index="78" value="78%"/>
+                    <StringItem index="79" value="79%"/>
+                    <StringItem index="80" value="80%"/>
+                    <StringItem index="81" value="81%"/>
+                    <StringItem index="82" value="82%"/>
+                    <StringItem index="83" value="83%"/>
+                    <StringItem index="84" value="84%"/>
+                    <StringItem index="85" value="85%"/>
+                    <StringItem index="86" value="86%"/>
+                    <StringItem index="87" value="87%"/>
+                    <StringItem index="88" value="88%"/>
+                    <StringItem index="89" value="89%"/>
+                    <StringItem index="90" value="90%"/>
+                    <StringItem index="91" value="91%"/>
+                    <StringItem index="92" value="92%"/>
+                    <StringItem index="93" value="93%"/>
+                    <StringItem index="94" value="94%"/>
+                    <StringItem index="95" value="95%"/>
+                    <StringItem index="96" value="96%"/>
+                    <StringItem index="97" value="97%"/>
+                    <StringItem index="98" value="98%"/>
+                    <StringItem index="99" value="99%"/>
+                    <StringItem index="100" value="100%"/>
+                  </StringArray>
+                </Property>
+                <Property name="selectedIndex" type="int" value="5"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_SerializeTo" type="java.lang.String" value="MainWindow_jComboBox1"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Copulation Probability ::"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cmb_CopulationProbability">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="101">
+                    <StringItem index="0" value="0%"/>
+                    <StringItem index="1" value="1%"/>
+                    <StringItem index="2" value="2%"/>
+                    <StringItem index="3" value="3%"/>
+                    <StringItem index="4" value="4%"/>
+                    <StringItem index="5" value="5%"/>
+                    <StringItem index="6" value="6%"/>
+                    <StringItem index="7" value="7%"/>
+                    <StringItem index="8" value="8%"/>
+                    <StringItem index="9" value="9%"/>
+                    <StringItem index="10" value="10%"/>
+                    <StringItem index="11" value="11%"/>
+                    <StringItem index="12" value="12%"/>
+                    <StringItem index="13" value="13%"/>
+                    <StringItem index="14" value="14%"/>
+                    <StringItem index="15" value="15%"/>
+                    <StringItem index="16" value="16%"/>
+                    <StringItem index="17" value="17%"/>
+                    <StringItem index="18" value="18%"/>
+                    <StringItem index="19" value="19%"/>
+                    <StringItem index="20" value="20%"/>
+                    <StringItem index="21" value="21%"/>
+                    <StringItem index="22" value="22%"/>
+                    <StringItem index="23" value="23%"/>
+                    <StringItem index="24" value="24%"/>
+                    <StringItem index="25" value="25%"/>
+                    <StringItem index="26" value="26%"/>
+                    <StringItem index="27" value="27%"/>
+                    <StringItem index="28" value="28%"/>
+                    <StringItem index="29" value="29%"/>
+                    <StringItem index="30" value="30%"/>
+                    <StringItem index="31" value="31%"/>
+                    <StringItem index="32" value="32%"/>
+                    <StringItem index="33" value="33%"/>
+                    <StringItem index="34" value="34%"/>
+                    <StringItem index="35" value="35%"/>
+                    <StringItem index="36" value="36%"/>
+                    <StringItem index="37" value="37%"/>
+                    <StringItem index="38" value="38%"/>
+                    <StringItem index="39" value="39%"/>
+                    <StringItem index="40" value="40%"/>
+                    <StringItem index="41" value="41%"/>
+                    <StringItem index="42" value="42%"/>
+                    <StringItem index="43" value="43%"/>
+                    <StringItem index="44" value="44%"/>
+                    <StringItem index="45" value="45%"/>
+                    <StringItem index="46" value="46%"/>
+                    <StringItem index="47" value="47%"/>
+                    <StringItem index="48" value="48%"/>
+                    <StringItem index="49" value="49%"/>
+                    <StringItem index="50" value="50%"/>
+                    <StringItem index="51" value="51%"/>
+                    <StringItem index="52" value="52%"/>
+                    <StringItem index="53" value="53%"/>
+                    <StringItem index="54" value="54%"/>
+                    <StringItem index="55" value="55%"/>
+                    <StringItem index="56" value="56%"/>
+                    <StringItem index="57" value="57%"/>
+                    <StringItem index="58" value="58%"/>
+                    <StringItem index="59" value="59%"/>
+                    <StringItem index="60" value="60%"/>
+                    <StringItem index="61" value="61%"/>
+                    <StringItem index="62" value="62%"/>
+                    <StringItem index="63" value="63%"/>
+                    <StringItem index="64" value="64%"/>
+                    <StringItem index="65" value="65%"/>
+                    <StringItem index="66" value="66%"/>
+                    <StringItem index="67" value="67%"/>
+                    <StringItem index="68" value="68%"/>
+                    <StringItem index="69" value="69%"/>
+                    <StringItem index="70" value="70%"/>
+                    <StringItem index="71" value="71%"/>
+                    <StringItem index="72" value="72%"/>
+                    <StringItem index="73" value="73%"/>
+                    <StringItem index="74" value="74%"/>
+                    <StringItem index="75" value="75%"/>
+                    <StringItem index="76" value="76%"/>
+                    <StringItem index="77" value="77%"/>
+                    <StringItem index="78" value="78%"/>
+                    <StringItem index="79" value="79%"/>
+                    <StringItem index="80" value="80%"/>
+                    <StringItem index="81" value="81%"/>
+                    <StringItem index="82" value="82%"/>
+                    <StringItem index="83" value="83%"/>
+                    <StringItem index="84" value="84%"/>
+                    <StringItem index="85" value="85%"/>
+                    <StringItem index="86" value="86%"/>
+                    <StringItem index="87" value="87%"/>
+                    <StringItem index="88" value="88%"/>
+                    <StringItem index="89" value="89%"/>
+                    <StringItem index="90" value="90%"/>
+                    <StringItem index="91" value="91%"/>
+                    <StringItem index="92" value="92%"/>
+                    <StringItem index="93" value="93%"/>
+                    <StringItem index="94" value="94%"/>
+                    <StringItem index="95" value="95%"/>
+                    <StringItem index="96" value="96%"/>
+                    <StringItem index="97" value="97%"/>
+                    <StringItem index="98" value="98%"/>
+                    <StringItem index="99" value="99%"/>
+                    <StringItem index="100" value="100%"/>
+                  </StringArray>
+                </Property>
+                <Property name="selectedIndex" type="int" value="15"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmb_CopulationProbabilityActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Infection Probability ::"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cmb_InfectionProbability">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="101">
+                    <StringItem index="0" value="0%"/>
+                    <StringItem index="1" value="1%"/>
+                    <StringItem index="2" value="2%"/>
+                    <StringItem index="3" value="3%"/>
+                    <StringItem index="4" value="4%"/>
+                    <StringItem index="5" value="5%"/>
+                    <StringItem index="6" value="6%"/>
+                    <StringItem index="7" value="7%"/>
+                    <StringItem index="8" value="8%"/>
+                    <StringItem index="9" value="9%"/>
+                    <StringItem index="10" value="10%"/>
+                    <StringItem index="11" value="11%"/>
+                    <StringItem index="12" value="12%"/>
+                    <StringItem index="13" value="13%"/>
+                    <StringItem index="14" value="14%"/>
+                    <StringItem index="15" value="15%"/>
+                    <StringItem index="16" value="16%"/>
+                    <StringItem index="17" value="17%"/>
+                    <StringItem index="18" value="18%"/>
+                    <StringItem index="19" value="19%"/>
+                    <StringItem index="20" value="20%"/>
+                    <StringItem index="21" value="21%"/>
+                    <StringItem index="22" value="22%"/>
+                    <StringItem index="23" value="23%"/>
+                    <StringItem index="24" value="24%"/>
+                    <StringItem index="25" value="25%"/>
+                    <StringItem index="26" value="26%"/>
+                    <StringItem index="27" value="27%"/>
+                    <StringItem index="28" value="28%"/>
+                    <StringItem index="29" value="29%"/>
+                    <StringItem index="30" value="30%"/>
+                    <StringItem index="31" value="31%"/>
+                    <StringItem index="32" value="32%"/>
+                    <StringItem index="33" value="33%"/>
+                    <StringItem index="34" value="34%"/>
+                    <StringItem index="35" value="35%"/>
+                    <StringItem index="36" value="36%"/>
+                    <StringItem index="37" value="37%"/>
+                    <StringItem index="38" value="38%"/>
+                    <StringItem index="39" value="39%"/>
+                    <StringItem index="40" value="40%"/>
+                    <StringItem index="41" value="41%"/>
+                    <StringItem index="42" value="42%"/>
+                    <StringItem index="43" value="43%"/>
+                    <StringItem index="44" value="44%"/>
+                    <StringItem index="45" value="45%"/>
+                    <StringItem index="46" value="46%"/>
+                    <StringItem index="47" value="47%"/>
+                    <StringItem index="48" value="48%"/>
+                    <StringItem index="49" value="49%"/>
+                    <StringItem index="50" value="50%"/>
+                    <StringItem index="51" value="51%"/>
+                    <StringItem index="52" value="52%"/>
+                    <StringItem index="53" value="53%"/>
+                    <StringItem index="54" value="54%"/>
+                    <StringItem index="55" value="55%"/>
+                    <StringItem index="56" value="56%"/>
+                    <StringItem index="57" value="57%"/>
+                    <StringItem index="58" value="58%"/>
+                    <StringItem index="59" value="59%"/>
+                    <StringItem index="60" value="60%"/>
+                    <StringItem index="61" value="61%"/>
+                    <StringItem index="62" value="62%"/>
+                    <StringItem index="63" value="63%"/>
+                    <StringItem index="64" value="64%"/>
+                    <StringItem index="65" value="65%"/>
+                    <StringItem index="66" value="66%"/>
+                    <StringItem index="67" value="67%"/>
+                    <StringItem index="68" value="68%"/>
+                    <StringItem index="69" value="69%"/>
+                    <StringItem index="70" value="70%"/>
+                    <StringItem index="71" value="71%"/>
+                    <StringItem index="72" value="72%"/>
+                    <StringItem index="73" value="73%"/>
+                    <StringItem index="74" value="74%"/>
+                    <StringItem index="75" value="75%"/>
+                    <StringItem index="76" value="76%"/>
+                    <StringItem index="77" value="77%"/>
+                    <StringItem index="78" value="78%"/>
+                    <StringItem index="79" value="79%"/>
+                    <StringItem index="80" value="80%"/>
+                    <StringItem index="81" value="81%"/>
+                    <StringItem index="82" value="82%"/>
+                    <StringItem index="83" value="83%"/>
+                    <StringItem index="84" value="84%"/>
+                    <StringItem index="85" value="85%"/>
+                    <StringItem index="86" value="86%"/>
+                    <StringItem index="87" value="87%"/>
+                    <StringItem index="88" value="88%"/>
+                    <StringItem index="89" value="89%"/>
+                    <StringItem index="90" value="90%"/>
+                    <StringItem index="91" value="91%"/>
+                    <StringItem index="92" value="92%"/>
+                    <StringItem index="93" value="93%"/>
+                    <StringItem index="94" value="94%"/>
+                    <StringItem index="95" value="95%"/>
+                    <StringItem index="96" value="96%"/>
+                    <StringItem index="97" value="97%"/>
+                    <StringItem index="98" value="98%"/>
+                    <StringItem index="99" value="99%"/>
+                    <StringItem index="100" value="100%"/>
+                  </StringArray>
+                </Property>
+                <Property name="selectedIndex" type="int" value="95"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel5">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Male Probability ::"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cmb_MaleProbability">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="101">
+                    <StringItem index="0" value="0%"/>
+                    <StringItem index="1" value="1%"/>
+                    <StringItem index="2" value="2%"/>
+                    <StringItem index="3" value="3%"/>
+                    <StringItem index="4" value="4%"/>
+                    <StringItem index="5" value="5%"/>
+                    <StringItem index="6" value="6%"/>
+                    <StringItem index="7" value="7%"/>
+                    <StringItem index="8" value="8%"/>
+                    <StringItem index="9" value="9%"/>
+                    <StringItem index="10" value="10%"/>
+                    <StringItem index="11" value="11%"/>
+                    <StringItem index="12" value="12%"/>
+                    <StringItem index="13" value="13%"/>
+                    <StringItem index="14" value="14%"/>
+                    <StringItem index="15" value="15%"/>
+                    <StringItem index="16" value="16%"/>
+                    <StringItem index="17" value="17%"/>
+                    <StringItem index="18" value="18%"/>
+                    <StringItem index="19" value="19%"/>
+                    <StringItem index="20" value="20%"/>
+                    <StringItem index="21" value="21%"/>
+                    <StringItem index="22" value="22%"/>
+                    <StringItem index="23" value="23%"/>
+                    <StringItem index="24" value="24%"/>
+                    <StringItem index="25" value="25%"/>
+                    <StringItem index="26" value="26%"/>
+                    <StringItem index="27" value="27%"/>
+                    <StringItem index="28" value="28%"/>
+                    <StringItem index="29" value="29%"/>
+                    <StringItem index="30" value="30%"/>
+                    <StringItem index="31" value="31%"/>
+                    <StringItem index="32" value="32%"/>
+                    <StringItem index="33" value="33%"/>
+                    <StringItem index="34" value="34%"/>
+                    <StringItem index="35" value="35%"/>
+                    <StringItem index="36" value="36%"/>
+                    <StringItem index="37" value="37%"/>
+                    <StringItem index="38" value="38%"/>
+                    <StringItem index="39" value="39%"/>
+                    <StringItem index="40" value="40%"/>
+                    <StringItem index="41" value="41%"/>
+                    <StringItem index="42" value="42%"/>
+                    <StringItem index="43" value="43%"/>
+                    <StringItem index="44" value="44%"/>
+                    <StringItem index="45" value="45%"/>
+                    <StringItem index="46" value="46%"/>
+                    <StringItem index="47" value="47%"/>
+                    <StringItem index="48" value="48%"/>
+                    <StringItem index="49" value="49%"/>
+                    <StringItem index="50" value="50%"/>
+                    <StringItem index="51" value="51%"/>
+                    <StringItem index="52" value="52%"/>
+                    <StringItem index="53" value="53%"/>
+                    <StringItem index="54" value="54%"/>
+                    <StringItem index="55" value="55%"/>
+                    <StringItem index="56" value="56%"/>
+                    <StringItem index="57" value="57%"/>
+                    <StringItem index="58" value="58%"/>
+                    <StringItem index="59" value="59%"/>
+                    <StringItem index="60" value="60%"/>
+                    <StringItem index="61" value="61%"/>
+                    <StringItem index="62" value="62%"/>
+                    <StringItem index="63" value="63%"/>
+                    <StringItem index="64" value="64%"/>
+                    <StringItem index="65" value="65%"/>
+                    <StringItem index="66" value="66%"/>
+                    <StringItem index="67" value="67%"/>
+                    <StringItem index="68" value="68%"/>
+                    <StringItem index="69" value="69%"/>
+                    <StringItem index="70" value="70%"/>
+                    <StringItem index="71" value="71%"/>
+                    <StringItem index="72" value="72%"/>
+                    <StringItem index="73" value="73%"/>
+                    <StringItem index="74" value="74%"/>
+                    <StringItem index="75" value="75%"/>
+                    <StringItem index="76" value="76%"/>
+                    <StringItem index="77" value="77%"/>
+                    <StringItem index="78" value="78%"/>
+                    <StringItem index="79" value="79%"/>
+                    <StringItem index="80" value="80%"/>
+                    <StringItem index="81" value="81%"/>
+                    <StringItem index="82" value="82%"/>
+                    <StringItem index="83" value="83%"/>
+                    <StringItem index="84" value="84%"/>
+                    <StringItem index="85" value="85%"/>
+                    <StringItem index="86" value="86%"/>
+                    <StringItem index="87" value="87%"/>
+                    <StringItem index="88" value="88%"/>
+                    <StringItem index="89" value="89%"/>
+                    <StringItem index="90" value="90%"/>
+                    <StringItem index="91" value="91%"/>
+                    <StringItem index="92" value="92%"/>
+                    <StringItem index="93" value="93%"/>
+                    <StringItem index="94" value="94%"/>
+                    <StringItem index="95" value="95%"/>
+                    <StringItem index="96" value="96%"/>
+                    <StringItem index="97" value="97%"/>
+                    <StringItem index="98" value="98%"/>
+                    <StringItem index="99" value="99%"/>
+                    <StringItem index="100" value="100%"/>
+                  </StringArray>
+                </Property>
+                <Property name="selectedIndex" type="int" value="50"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel18">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Total Iterations / Time :: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_totalIterations">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="100"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel4">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel15" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="txt_lifeExpectancy" min="-2" pref="53" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel19" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel20" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="txt_hIncreasePerHelp" pref="42" max="32767" attributes="0"/>
+                              <Component id="txt_hDecreasePerTime" max="32767" attributes="0"/>
+                              <Component id="txt_hDecreasePerHelpGiven" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel19" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txt_hDecreasePerTime" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel20" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txt_hIncreasePerHelp" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txt_hDecreasePerHelpGiven" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="35" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txt_lifeExpectancy" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel15">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Health Parameters"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel12">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Life Expectancy ::"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_lifeExpectancy">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="1000"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel19">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Health decrease / time ::"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel20">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Health increase / help received ::"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_hDecreasePerTime">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="15"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_hIncreasePerHelp">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="15"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Health decrease / help given ::"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_hDecreasePerHelpGiven">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="btn_startSimulation">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Start Simulation"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseReleased" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btn_startSimulationMouseReleased"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_parametersExceptionMessage">
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="simulationStatisticsTable">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="18" rowCount="0">
+                <Column editable="false" title="Time" type="java.lang.Integer"/>
+                <Column editable="true" title="Population" type="java.lang.Integer"/>
+                <Column editable="false" title="Births" type="java.lang.Integer"/>
+                <Column editable="false" title="D_Natural" type="java.lang.Integer"/>
+                <Column editable="false" title="D_Ageing" type="java.lang.Integer"/>
+                <Column editable="false" title="D_Infection" type="java.lang.Integer"/>
+                <Column editable="false" title="Suckers" type="java.lang.Integer"/>
+                <Column editable="false" title="Cheats" type="java.lang.Integer"/>
+                <Column editable="false" title="Grudgers" type="java.lang.Integer"/>
+                <Column editable="false" title="Infected" type="java.lang.Integer"/>
+                <Column editable="false" title="SS_Genes" type="java.lang.Integer"/>
+                <Column editable="false" title="CC_Genes" type="java.lang.Integer"/>
+                <Column editable="false" title="GG_Genes" type="java.lang.Integer"/>
+                <Column editable="false" title="SC_Genes" type="java.lang.Integer"/>
+                <Column editable="false" title="SG_Genes" type="java.lang.Integer"/>
+                <Column editable="false" title="CG_Genes" type="java.lang.Integer"/>
+                <Column editable="false" title="Males" type="java.lang.Integer"/>
+                <Column editable="false" title="Females" type="java.lang.Integer"/>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JProgressBar" name="jProgressBar_SimulationStatus">
+      <Properties>
+        <Property name="stringPainted" type="boolean" value="true"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_notifyWhySimulationHasEnded">
+    </Component>
+    <Component class="javax.swing.JProgressBar" name="jProgressBar_SuckersPercentage">
+      <Properties>
+        <Property name="orientation" type="int" value="1"/>
+        <Property name="string" type="java.lang.String" value="Suckers"/>
+        <Property name="stringPainted" type="boolean" value="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JProgressBar" name="jProgressBar_CheatsPercentage">
+      <Properties>
+        <Property name="orientation" type="int" value="1"/>
+        <Property name="string" type="java.lang.String" value="Cheats"/>
+        <Property name="stringPainted" type="boolean" value="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JProgressBar" name="jProgressBar_GrudgersPercentage">
+      <Properties>
+        <Property name="orientation" type="int" value="1"/>
+        <Property name="string" type="java.lang.String" value="Grudgers"/>
+        <Property name="stringPainted" type="boolean" value="true"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="txtArea_log">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JCheckBox" name="check_enableLiveLogging">
+      <Properties>
+        <Property name="selected" type="boolean" value="true"/>
+        <Property name="text" type="java.lang.String" value="Enable Live Log View"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="jRadioButton1">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="buttonGroup1"/>
+        </Property>
+        <Property name="selected" type="boolean" value="true"/>
+        <Property name="text" type="java.lang.String" value="Graph of latest Iteration"/>
+      </Properties>
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="jRadioButton1StateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="jRadioButton2">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="buttonGroup1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Graph of Average Statistics"/>
+      </Properties>
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="jRadioButton2StateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_StopSimulationButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Stop"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseReleased" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btn_StopSimulationButtonMouseReleased"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
